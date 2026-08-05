@@ -11,7 +11,6 @@ from telegram.ext import (
     ContextTypes,
 )
 import edge_tts
-from pyannote.audio import Pipeline # (agar required ho toh, baki pydub use kar rahe hain)
 from pydub import AudioSegment
 
 # Bot Token (Aapka token yahan set kar diya hai)
